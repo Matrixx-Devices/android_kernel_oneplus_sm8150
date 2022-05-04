@@ -717,6 +717,7 @@ static int enter_state(suspend_state_t state)
 	}
 	#endif /* OPLUS_FEATURE_POWERINFO_STANDBY_DEBUG */
 
+	pm_wakeup_clear(true);
 	if (state == PM_SUSPEND_TO_IDLE)
 		s2idle_begin();
 
