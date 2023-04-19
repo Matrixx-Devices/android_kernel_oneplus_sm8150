@@ -77,7 +77,7 @@ __setup("androidboot.serialno=", get_serialno_init);
 
 
 /*device info init to black*/
-static void  pstore_device_info_init(void )
+static void  pstore_device_info_init(void)
 {
         size_t oldsize;
         size_t size =0;
@@ -107,7 +107,7 @@ static void  pstore_device_info_init(void )
         psinfo->bufsize = oldsize ;
 }
 
-static void board_soc_info_init()
+static void board_soc_info_init(void)
 {
 
         scnprintf(pcb_version, sizeof(pcb_version), "%x", get_PCB_Version()); 
