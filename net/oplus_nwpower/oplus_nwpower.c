@@ -846,4 +846,3 @@ static void __exit oplus_nwpower_fini(void)
 
 module_init(oplus_nwpower_init);
 module_exit(oplus_nwpower_fini);
-
