@@ -103,7 +103,6 @@ struct selinux_state {
 	bool checkreqprot;
 	bool initialized;
 	bool policycap[__POLICYDB_CAPABILITY_MAX];
-	bool android_netlink_getneigh;
 	bool android_netlink_route;
 	bool android_netlink_getneigh;
 
